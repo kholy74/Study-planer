@@ -1,0 +1,43 @@
+#cont{
+    display: flex;  
+}
+#container {
+    display: flex;
+
+}
+
+header{
+    flex-basis: 25%;
+}
+nav {
+    flex-basis: 75%;
+}
+
+
+main{
+flex-basis: 75%;
+}
+aside{
+flex-basis: 25%;
+}
+
+@media screen and (max-width:1024px) {
+
+    #cont {
+            flex-direction: column;
+        }
+       
+
+
+}
+
+@media screen and (max-width:768px) {
+    
+                #container {
+                    flex-direction: column;
+                }
+                
+
+}
+
+

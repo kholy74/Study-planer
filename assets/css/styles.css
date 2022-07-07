@@ -1,0 +1,58 @@
+h1{
+    color: rgb(21, 179, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+}
+
+nav{
+    border: 2px 2px 2px 2px;
+    height: 30px;
+
+}
+#navList{
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    background-color: lightblue;
+    border-radius: 2px;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+nav a[href]:hover {
+    border: 2px solid lightblue;
+    background-color: lightblue;
+    color: white;
+    font-size: large;
+}
+nav a[href] {
+    border: 2px solid  blue;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 2px 2px 2px 2px;
+}
+
+
+.feld{
+    font-weight: bold;
+}
+
+#tab thead{
+color: brown;
+}
+#tab tr:nth-of-type(even){
+background-color: lightblue;
+}
+.schrift{
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+@media screen and (max-width:480px) {
+
+    aside {
+        display: none;
+    }
+}

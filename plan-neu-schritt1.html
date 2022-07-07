@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auswahl des Studienganges</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/forms.css" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img
+          src="assets/img/logo1.png"
+          alt="Stundenplan_Logo"
+          height="40"
+          width="50"
+        />Auswahl des Studienganges
+      </h1>
+    </header>
+    <nav>
+      <a href="index.html"> Liste der Semesterpläne</a>
+      <a href="plan.html"> Details zum Semesterplan</a>
+      <a href="kurs.html"> Details zum Kurs</a>
+      <a href="plan-neu-schritt1.html">Auswahl des Studienganges</a>
+    </nav>
+    <main>
+      <form action="plan-neu-schritt2.html" method="get">
+        <p></p>
+        <h3>Wählen Sie den Studiengang:</h3>
+        <select name="Studiengang">
+          <option value="Praktische Informatik">Praktische Informatik</option>
+          <option value="Technische Informatik">Technische Informatik</option>
+          <option value="Medizinische Informatik">
+            Medizinische Informatik
+          </option>
+          <option value="SST dual (Softwaretechnik)">
+            SST dual (Softwaretechnik)
+          </option>
+          <option value="SST dual (Systemtechnik)">
+            SST dual (Systemtechnik)
+          </option>
+          <option value="Wirtschaftsinformatik">Wirtschaftsinformatik</option>
+        </select>
+
+        <p>
+          <button type="submit">weiter</button>
+        </p>
+      </form>
+    </main>
+    <aside>
+      <h3>Aktuelle Meldungen</h3>
+      <ul>
+        <li>
+          22.05.2025: Die Vorlesung zu "Web-Technologien" findet am kommenden
+          Mittwoch abweichend in der westfalehalle 1 statt.
+        </li>
+        <li>
+          16.04.2025: Die Verantalltung "Lineare Algebra" muss in dieser Woche
+          leider krankheitsbedingt entfallen
+        </li>
+      </ul>
+    </aside>
+    <hr />
+    <footer>
+      <small>&copy;2022 Khalil Alassaf & Mohamed Nabo & Mohamed Elkholy</small>
+    </footer>
+  </body>
+</html>

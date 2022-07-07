@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/forms.css" />
+
+    <title>Study Planer</title>
+  </head>
+  <body class="schrift">
+    <header>
+      <h1>
+        <img
+          src="assets/img/logo1.png"
+          alt="Stundenplan_Logo"
+          height="40"
+          width="50"
+        />Details zum Semesterplan
+      </h1>
+    </header>
+    <nav>
+      <a href="index.html"> Liste der Semesterpläne</a>
+      <a href="plan.html"> Details zum Semesterplan</a>
+      <a href="kurs.html"> Details zum Kurs</a>
+      <a href="plan-neu-schritt1.html">Auswahl des Studienganges</a>
+    </nav>
+
+    <main>
+      <ol>
+        <li>
+          <article title="plans">
+            <h3 class="info">Informationen zum Semesterplan:</h3>
+            <ul>
+              <li id="WIWS">WI-Plan (Wirtschaftsinformatik WiSe 21)</li>
+              <li id="MIWS">MI-Plan (Medizinische Informatik WiSe 21)</li>
+            </ul>
+          </article>
+        </li>
+
+        <li>
+          <article>
+            <h3 class="info">Gewählte Kurse:</h3>
+            <table id="tab">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Wochentag</th>
+                  <th>Stunden</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="kurs.html"> WebTech </a></td>
+                  <td>(Mittwoch)</td>
+                  <td>(5.-6. Stunde)</td>
+                </tr>
+                <tr>
+                  <td><a href="kurs.html">Datenbanken1 </a></td>
+                  <td>(Dienstag)</td>
+                  <td>(1.-2 Stunde)</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </li>
+      </ol>
+    </main>
+    <aside>
+      <h3>Aktuelle Meldungen</h3>
+      <ul>
+        <li>
+          22.05.2025: Die Vorlesung zu "Web-Technologien" findet am kommenden
+          Mittwoch abweichend in der westfalehalle 1 statt.
+        </li>
+        <li>
+          16.04.2025: Die Verantalltung "Lineare Algebra" muss in dieser Woche
+          leider krankheitsbedingt entfallen
+        </li>
+      </ul>
+    </aside>
+
+    <footer>
+      <hr />
+      <small>&copy;2022 Khalil Alassaf & Mohamed Nabo & Mohamed Elkholy</small>
+    </footer>
+  </body>
+</html>
